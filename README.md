@@ -9,4 +9,5 @@
 ```
 touch tsconfig.json
 yarn add --dev typescript @types/react @types/node
+yarn dev
 ```
