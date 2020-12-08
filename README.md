@@ -47,3 +47,23 @@ Add npm scripts:
 - Add "test" and "test:ci" scripts (see [package.json](https://github.com/andreasbergqvist/next-typescript-tests/blob/main/package.json))
 
 Run tests with `npm test` or `yarn test`
+
+#### ESLint, Prettier and EditorConfig
+
+Add ESLint and Prettier:
+
+```
+yarn add --dev @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-plugin-prettier eslint-config-prettier eslint-plugin-react eslint-plugin-react-hooks prettier
+```
+
+Add Files:
+
+- [.editorconfig](https://github.com/andreasbergqvist/next-typescript-tests/blob/main/.editorconfig)
+- [.eslintignore](https://github.com/andreasbergqvist/next-typescript-tests/blob/main/.eslintignore)
+- [.eslintrc.json](https://github.com/andreasbergqvist/next-typescript-tests/blob/main/.eslintrc.json)
+- [.prettierignore](https://github.com/andreasbergqvist/next-typescript-tests/blob/main/.prettierignore)
+- [.prettierrc](https://github.com/andreasbergqvist/next-typescript-tests/blob/main/.prettierrc)
+
+Format your files by running `npm run format` or `yarn format`.
+
+Lint your files by running `npm run lint` or `yarn lint`.
